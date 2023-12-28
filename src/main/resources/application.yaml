@@ -1,0 +1,23 @@
+server:
+  port: 8000  #  ${ECARD_SERVICE_PROVIDER_PORT}
+  servlet:
+    context-path: '/demo'
+#logging.level.root: DEBUG
+
+#spring:
+#  datasource:
+##    url: jdbc:postgresql://${POSTGRES_DATABASE_HOST}:5432/ecard
+#    url: jdbc:postgresql://localhost:5434/demo
+#    username: demo_user
+#    password: demo_user
+#    driverClassName: org.postgresql.Driver
+##    jackson:
+##      time-zone: UTC
+#
+#  jpa:
+#    hibernate.ddl-auto: create
+#    hibernate.default_schema: public
+#    show-sql: false
+#    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+#    properties.hibernate.format_sql: true
+#    properties.hibernate.jdbc.time_zone: UTC
